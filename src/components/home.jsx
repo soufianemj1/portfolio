@@ -12,8 +12,8 @@ const Home = () => {
       </div>
 
       <div className='discover'>
-          <div><h5>discover me!</h5></div>
-          <div className='down'><FiChevronDown /></div>
+          <div><a href="#aboutComp"><h5>discover me!</h5></a></div>
+          <div className='down'><a href="#aboutComp"><FiChevronDown /></a></div>
       </div>
      
   </div>;

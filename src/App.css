@@ -7,6 +7,9 @@ body{
   font-family: 'Roboto', sans-serif;
   
 }
+html{
+  scroll-behavior: smooth;
+}
 .home {
   height: 100vh;
   display: flex;
@@ -21,7 +24,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='12' height='16' viewBox=
   border-radius: 50%;
 }
 .home h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 .discover{

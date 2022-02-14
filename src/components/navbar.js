@@ -17,6 +17,37 @@ function Nav() {
                 />
               </div>
               <div className="hidden md:block">
+              <div className="ml-10 flex items-baseline space-x-4">
+                  <a
+                    href="#homeComp"
+                    className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    Home
+                  </a>
+
+                  <a
+                    href="#aboutComp"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    About-me
+                  </a>
+
+                  <a
+                    href="#experienceComp"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    Experiences
+                  </a>
+
+                  <a
+                    href="#contactComp"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    Contact
+                  </a>
+
+                 
+                </div>
                 
               </div>
             </div>
